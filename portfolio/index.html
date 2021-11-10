@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-gb" class="all">
+<!-- w3schools.com was used in completing my work. Accessed date is 20th Nov, 2020 and 23rd Nov, 2020.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Work history including introduction of myself, work experience and images that interest me"/>
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--This means that the browser will (probably) render the width of the page at the width of its own screen. //-->
+    <title>Work History</title>
+    <!-- add your stylesheet and any other styling code, e.g. google fonts  a good link is https://fonts.google.com/-->
+	
+	<style>
+	.experience {text-align:center; border-style:dotted;
+	}
+
+    .intro{text-align:center; color:black; border-style:dotted; 
+	}
+	h2{color:black;
+	}
+	div.artwork1 {margin: 20px; width: 299px;
+	float: left;width: 24.2%;padding: 7px; border: 2px outset;}
+	div.artwork2 {margin: 20px; width: 299px;
+	float: left;width: 24.2%;padding: 7px; border: 2px outset;}
+	div.artwork3 {margin: 20px; width: 299px;
+	float: left;width: 24.2%;padding: 4px;  border: 2px outset;}
+	
+     div.artwork:hover {border: 3px solid ;}
+	 
+	 div.image-caption {padding: 3px;text-align: center;}
+	 input, textarea{background-color:aqua; color: blue;}
+	 
+    .column {float: left;width: 33.33%;padding: 5px;}
+  .attribute::after {content: "";clear: both;display: table;}
+  section{color:blue;}
+   input[type=text] {border-style:dotted; border-color: white;}
+   input[type=email] {border-style:dotted; border-color: white;}
+   input[type=tel] {border-style:dotted; border-color: white;}
+   #contact-message {border-style:dotted; border-color: white;}
+   input[type=submit] {border-style:dotted; border-color: white;}
+
+	</style>
+	<link rel="stylesheet" href="css/layout.css" /> 
+</head>
+
+<!-- all the classes below will require some CSS styles to be included in your layout.css file, if you do not
+include a style for these classes you should remove the class from your html file //-->
+<body>
+    <main>
+	 <header>  <!-- What does the header do? It introduces the content of the page.  see nav above-->
+            <div>  <!-- What is a div?  Div is a division tag. it is used for dividing html content into sections-->
+                <h1 class="love">OKIKIOLA SANNI</h1>
+                <p class="name">Life without technology is humdrum. Technology is the new experience.</p>
+			<div id="logo">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt2kIPp_XkrWIRGg-LiqZ4egNmlcm4Vs5dUw&usqp=CAU" alt="a bulb logo">
+			</div>
+            </div>
+        </header>
+	    <!-- You could style Main here if you wish-->
+        <nav> <!-- the navigation part of the page.  Note links just jump to different parts of the page.-->
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#images">Image Gallery</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    <!--Note here the use of an ID.  the link above actually links to this.  It's a good example of where an ID can be used.  Note also that the section has a class attribute.  use this for styling. -->
+        <section id="about">  <!--What does the section do here?  Section is used to group elements that are akin together. -->
+            <div>
+                <h2 class="intro">About Me</h2>
+                <div class="content">
+                    <p> My name is Okikiola Sanni. I live in Santry, Dublin, which is only a few minutes from Dublin City University. I am a gentle and friendly person. I love meeting new people, and getting to know them. My hobbies are dancing, singing, researching new topics, studying and observing, and chatting. </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="work" class="work-experience container">
+            <div class="container-content">
+                <h2 class="experience">Work Experience</h2>
+                <div class="content">
+                    <p> I have worked in Beaumont Hospital located in Dublin, for ten years. I worked as a Staff Nurse in the Accident and Emergency Derpartment. I find this department dynamic, onerous and progressive. Over the last ten years, I was able to gather some skills and qualities which include communication, interpersonal, listening,flexibility, determination and persistence, willingness to add to my knowledge base and skill, problem solving, and most especially, team-work and computer skill.</p>
+					<p> Some of my responsibilities were, but not limited to the following:</p>
+					<ul>
+					<li>Assisting with checking in patients, doing triage work for doctors and generating initial insurance paperwork.</li>
+					<li>Maintaining care standards in accident and emergency.</li>
+					<li>Maintaining contact with laboratory personnel to report any initial lab findings back to the Accident and Emmergency doctors.</li>
+					<li>Working with doctors to keep patients and their family members updated on test results or treatment recommendations.</li>
+					<li>Making arrangements for patients that are deemed to need care requiring them to be admitted to the hospital for one night or longer</li>
+					</ul>
+				    <p>The part I love about being an Accident and Emergency Nurse is being able to build close relationship with patients. They feel relieved having someone to discuss with. I understand how lonely they can feel sometimes being in their room alone: it can be depressing.</p>
+                </div> <!-- The roles of an A&E nurses were taken from https://www.medgen.co.uk/blog/2020/04/what-does-an-a-and-e-nurse-do -->
+            </div>
+        </section>
+				<br><br>
+
+        <section id="images">
+            <div class="attribute">
+                <h2>Image Gallery</h2>
+                <div>
+                    <div class="artwork1">
+					    <a target="_blank" href="images/cat.jpg">
+                        <img src="images/cat.jpg" alt="a calm cat" width="300" height="250">
+						</a>
+                        <div class="image-caption">Cat fur protects the skin from sun, cold, scratches, and insect bites; helps regulate body temperature; and supports the sense of touch.</div>
+                    </div>
+                    <div class="artwork2">
+					 <a target="_blank" href="images/robot.jpg">
+					<img src="images/robot.jpg" alt="a robot" width="300" height="250">
+					  </a>
+                        <!-- add image two here with 150 word maximum caption -->
+                        <div class="image-caption"> A robot is a programmable, self-controlled device consisting of electronic, electrical, or mechanical units. It is a machine that functions in the place of a living agent.</div>
+                    </div>
+                    <div class="artwork3">
+					  <a target="_blank" href="images/peacock.jpg">
+					  <img src="images/peacock.jpg" alt="a beautiful peacock" width="300" height="250">
+					    </a>
+                        <!-- add image three here with 150 word maximum caption -->
+                        <div class="image-caption">Peacocks are extravagant birds, with iridescent blue necks, and bright green tail feathers dotted with eyespots. Peacocks are known to be fiercely territorial birds.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-me container">
+            <div class="content-container">
+                <h2>Contact Me</h2>
+                <div class="content">
+                    <form class="sheet" action="https://formspree.io/" method="post">
+	                    <!-- Style this nicely.  Don't worry if the form doesn't work, marks here for how well you style it. -->
+                        <p>
+                            <label for="contact-name">Your Name</label>
+                            <input id="contact-name" type="text" name="contact-name" />
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email address</label>
+                            <input id="contact-email" type="email" name="contact-email" /> </p>
+                        <p>
+                            <label for="contact-phone">Your phone number</label>
+                            <input id="contact-phone" type="tel" name="contact-phone" /> </p>
+                        <p>
+                            <label for="contact-message">Your message</label>
+                            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="send my message" /> </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id = "footer-layout">
+                <p> &copy; <a href="dcu.ie/">DCU 2019-2020</a>
+				<span>&middot;</span>
+				<span>Okikiola Mutiat Aramide Sanni</span> <span>&middot;</span> <span>This is student coursework</span> <span>&middot;</span> <span>Lecturer<a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> <span class="footer-separator">&middot;</span> <span>
+     <a href="http://validator.w3.org/" title="W3C HTML Validation Service" >Valid HTML</a><br/>
+	 
+        </span> </p>
+        <!-- Note that the link to the validator above will only produce results when your page is uploaded to the server, and you click on the link from the browser.-->
+         
+        </footer>
+    </main>
+</body>
+
+</html>
+
+<!-- w3schools.com was used in completing my work. Accessed date is 20th Nov, 2020 and 23rd Nov, 2020.--!>
